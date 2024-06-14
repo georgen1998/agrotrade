@@ -1,0 +1,42 @@
+{
+  "name": "agrotrade_backend",
+  "version": "1.0.0",
+  "description": "App CRUD que alimentará um front-end desenvolvido com VueJS",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .js  -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "express",
+    "postgresql",
+    "sql",
+    "javascript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "husky": "^7.0.4",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.17.3",
+    "express-promise-router": "^4.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.3",
+    "mysql2-promise": "^0.1.4",
+    "pg": "^8.7.3",
+    "sequelize": "^6.35.0",
+    "sequelize-cli": "^6.6.2"
+  }
+}
